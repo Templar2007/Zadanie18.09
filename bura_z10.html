@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 10: Budowa selektora</title>
+    <style>
+        h1 {
+            font-size: 32px;
+            font-family: Arial, sans-serif;
+        }
+        p {
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+        }
+        .frame {
+            border: 2px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Zadanie 10: Budowa selektora</h1>
+    <ol>
+        <li>
+            <h2>Wymień oraz opisz dwie części selektora</h2>
+            <div class="frame">
+                <p>Selektor składa się z:</p>
+                <ul>
+                    <li><strong>Elementu:</strong> Określa, na które elementy HTML zostaną zastosowane style. Może to być nazwa tagu HTML, np. `<div>`, `<p>`, `<h1>`, itp.</li>
+                    <li><strong>Klasy lub identyfikatory:</strong> Dodatkowe kwalifikatory, które precyzują, które dokładnie elementy HTML zostaną stylizowane. Klasy zaczynają się od kropki (.), a identyfikatory od znaku hash (#).</li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <h2>Znaczenie nawiasów klamrowych {...}</h2>
+            <p>Nawiasy klamrowe zawierają deklaracje stylów CSS, czyli właściwości (cechy) i ich wartości, które zostaną zastosowane do wybranych elementów.</p>
+        </li>
+        <li>
+            <h2>Opisz cechy</h2>
+            <p>Cechy (ang. properties) w CSS określają, co dokładnie chcemy zmienić lub dostosować w wybranych elementach HTML. Mogą to być właściwości takie jak kolor, rozmiar czcionki, marginesy, tło, itp.</p>
+        </li>
+        <li>
+            <h2>Opisz wartości</h2>
+            <p>Wartości (ang. values) w CSS to konkretne wartości, które przypisujemy do cech. Na przykład, dla właściwości "color" (kolor), wartością może być "red" (czerwony), "#000000" (czarny w formacie heksadecymalnym), itp.</p>
+        </li>
+        <li>
+            <h2>Kiedy stosujemy znak średnika (;), kiedy nie jest konieczny</h2>
+            <p>Znak średnika (;) stosujemy po każdej deklaracji stylu CSS, aby oddzielić je od siebie. Jest to konieczne w przypadku, gdy mamy więcej niż jedną deklarację. Jednakże, jeśli mamy tylko jedną deklarację w selektorze, znak średnika może być pominięty.</p>
+        </li>
+    </ol>
+</body>
+</html>

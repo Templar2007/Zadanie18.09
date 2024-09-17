@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sposoby definiowania kolorów</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Sposoby definiowania kolorów</h2>
+        <table>
+            <tr>
+                <th>Metoda</th>
+                <th>Przykład</th>
+                <th>Opis</th>
+            </tr>
+            <tr>
+                <td>Nazwa koloru</td>
+                <td>red</td>
+                <td>Nazwa koloru zgodna z listą nazwanych kolorów w CSS.</td>
+            </tr>
+            <tr>
+                <td>Kod heksadecymalny</td>
+                <td>#ff0000</td>
+                <td>Kod koloru w systemie szesnastkowym, gdzie każda składowa (czerwona, zielona, niebieska) jest reprezentowana przez dwie cyfry (0-9, A-F).</td>
+            </tr>
+            <tr>
+                <td>Kod RGB</td>
+                <td>rgb(255, 0, 0)</td>
+                <td>Kod koloru oparty na wartościach składowych czerwonej, zielonej i niebieskiej (0-255).</td>
+            </tr>
+            <tr>
+                <td>Kod RGBA</td>
+                <td>rgba(255, 0, 0, 0.5)</td>
+                <td>Kod koloru oparty na wartościach składowych czerwonej, zielonej i niebieskiej, z dodatkowym kanałem alfa określającym przezroczystość (0-1).</td>
+            </tr>
+            <tr>
+                <td>Nazwa systemowa</td>
+                <td>system -apple-system</td>
+                <td>Nazwa systemowa koloru, zwykle używana do określenia domyślnego systemowego fontu.</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

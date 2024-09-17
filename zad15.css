@@ -1,0 +1,10 @@
+* Plik zad15.css */
+p {
+    /* Kolor definiowany pierwszym sposobem z tabeli */
+    color: #C4FFB7; /* 100+3 (miesiąc) = 103; 150+18 (dzień) = 168; 50+43 (numer buta) = 93 */
+}
+
+body {
+    /* Kolor definiowany czwartym sposobem z tabeli */
+    background-color: rgba(calc((125 + 18) / 255 * 100), calc((50 + 43) / 255 * 100), calc((200 + 3) / 255 * 100), 1); /* 125+5 (dzień) = 130; 50+7 (numer buta) = 57; 200+12 (miesiąc) = 212 */
+}

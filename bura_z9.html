@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 9: Opis stylu zewnętrznego</title>
+    <style>
+        h1 {
+            font-size: 32px;
+            font-family: Arial, sans-serif;
+        }
+        p {
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+        }
+        .frame {
+            border: 2px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Zadanie 9: Opis stylu zewnętrznego</h1>
+    <ol>
+        <li>
+            <h2>Składnia teoretyczna</h2>
+            <div class="frame">
+                <p>&lt;link rel="stylesheet" type="text/css" href="nazwa_pliku.css"&gt;</p>
+            </div>
+        </li>
+        <li>
+            <h2>Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz ile razy może on występować w dokumencie, jako podłączenie stylu CSS?</h2>
+            <p>Styl zewnętrzny jest podłączany w sekcji nagłówka dokumentu HTML za pomocą znacznika `<link>`. Może on występować wielokrotnie w dokumencie, łącząc go z różnymi arkuszami styli.</p>
+        </li>
+        <li>
+            <h2>Jaka jest najprostsza forma wstawiania stylu zewnętrznego?</h2>
+            <div class="frame">
+                <p>&lt;link rel="stylesheet" href="nazwa_pliku.css"&gt;</p>
+            </div>
+        </li>
+        <li>
+            <h2>Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad musi być zachowana przy większej ilości dołączanych styli?</h2>
+            <p>Do jednego dokumentu HTML może być dołączonych wiele arkuszy styli. Musi być zachowana kolejność dołączania arkuszy styli - style z późniejszych arkuszy mogą nadpisywać style z wcześniejszych arkuszy.</p>
+        </li>
+        <li>
+            <h2>Co się dzieje w przypadku konfliktów?</h2>
+            <p>W przypadku konfliktów, gdy te same style są definiowane w różnych arkuszach styli podłączonych do tego samego dokumentu, decyduje zasada kaskadowości CSS. Style z późniejszych arkuszy mogą nadpisywać style z wcześniejszych arkuszy.</p>
+        </li>
+        <li>
+            <h2>Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?</h2>
+            <p>Pliki arkuszy styli mogą być tworzone i edytowane przy użyciu dowolnego edytora tekstowego, takiego jak Notepad++, Sublime Text, Visual Studio Code, itp.</p>
+        </li>
+        <li>
+            <h2>Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?</h2>
+            <p>Pliki arkuszy styli mogą być tworzone i edytowane także za pomocą specjalistycznych edytorów CSS, takich jak Adobe Dreamweaver, Atom, czy Brackets.</p>
+        </li>
+        <li>
+            <h2>Jakie rozszerzenie posiadają pliki będące zewnętrznym arkuszem styli?</h2>
+            <p>Pliki będące zewnętrznymi arkuszami styli mają zazwyczaj rozszerzenie `.css`.</p>
+        </li>
+        <li>
+            <h2>Jakie są zalety zewnętrznego arkusza styli?</h2>
+            <p>
+                <ol>
+                    <li>Możliwość ponownego wykorzystania styli na wielu stronach internetowych.</li>
+                    <li>Poprawa czytelności kodu HTML i CSS poprzez separację struktury HTML od prezentacji.</li>
+                </ol>
+            </p>
+        </li>
+        <li>
+            <h2>Uwagi na temat pisania w CSS</h2>
+            <p>Pisząc w CSS należy dbać o czytelność i zgodność z zasadami kaskadowości oraz selektorów CSS. Staraj się unikać nadmiernego zagnieżdżania selektorów i definiowania zbyt dużych arkuszy styli.</p>
+        </li>
+    </ol>
+</body>
+</html>

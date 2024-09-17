@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 20</title>
+    <style>
+        /* Style lokalne */
+        .blok {
+            margin-bottom: 20px;
+        }
+        
+        /* Blok pierwszy */
+        #blok1 {
+            background-color: #FFFDD0;
+            width: 40%;
+            height: 100%;
+        }
+        #blok1 p {
+            color: orange;
+            font-size: 20pt;
+            font-family: Arial;
+        }
+        
+        /* Blok drugi */
+        #blok2 {
+            background-color: magenta;
+            width: 15%;
+            height: 80%;
+        }
+        #blok2 i {
+            color: green;
+            font-size: 20pt;
+            font-style: italic;
+            font-weight: bold;
+        }
+        #blok2 strike {
+            color: red;
+            font-size: 20pt;
+        }
+        #blok2 u {
+            color: purple;
+            font-size: 20pt;
+            text-decoration: overline;
+        }
+        
+        /* Blok trzeci */
+        #blok3 {
+            background-color: #6B8E23; /* Zieleń wiosenna */
+            width: 30%;
+            height: 100%;
+        }
+        #blok3 h1 {
+            color: blue;
+            font-size: 30pt;
+            text-decoration: underline;
+        }
+        #blok3 ol {
+            color: blue;
+            font-size: 25pt;
+        }
+        #blok3 ol ol {
+            color: red;
+            font-size: 20pt;
+        }
+        #blok3 ol ol ol {
+            color: gray;
+            font-size: 15pt;
+        }
+    </style>
+</head>
+<body>
+    <!-- Blok pierwszy -->
+    <div id="blok1" class="blok">
+        <p>Treści paragrafu związane z informatyką.</p>
+    </div>
+
+    <!-- Blok drugi -->
+    <div id="blok2" class="blok">
+        <i>Kursywa</i>
+        <strike>Przekreślenie</strike>
+        <u>Podkreślenie</u>
+    </div>
+
+    <!-- Blok trzeci -->
+    <div id="blok3" class="blok">
+        <h1>Nagłówek 1 poziomu</h1>
+        <ol>
+            <li>Poziom pierwszy
+                <ol>
+                    <li>Poziom drugi
+                        <ol>
+                            <li>Poziom trzeci</li>
+                            <li>Poziom trzeci</li>
+                        </ol>
+                    </li>
+                    <li>Poziom drugi</li>
+                </ol>
+            </li>
+            <li>Poziom pierwszy</li>
+        </ol>
+    </div>
+
+    <!-- Kacper Burakowski -->
+</body>
+</html>

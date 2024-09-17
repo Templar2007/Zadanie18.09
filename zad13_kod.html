@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wyświetlanie kodu HTML i CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 800px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        textarea {
+            width: 100%;
+            height: 400px;
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Kod HTML:</h2>
+        <textarea readonly>
+            <!DOCTYPE html>
+            <html lang="pl">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Zadanie 13: Modyfikacja stylu zewnętrznego</title>
+                <!-- Link do zmodyfikowanego arkusza stylów -->
+                <link rel="stylesheet" type="text/css" href="bura_z13.css">
+            </head>
+            <body>
+                <p>:P</p>
+                <p>:)</p>
+                <p>:(</p>
+                <p>:D</p>
+                <p>:O</p>
+                <p>;</p>
+            </body>
+            </html>
+        </textarea>
+
+        <h2>Kod CSS:</h2>
+        <textarea readonly>
+            /* Plik kowa_z13.css */
+            body {
+                font-size: calc(50mm);
+            }
+
+            p {
+                font-size: calc(40mm);
+            }
+        </textarea>
+    </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+/* Plik kowa_z13.css */
+body {
+    font-size: calc(50mm); /* 40mm + liczba liter w nazwisku */
+}
+
+p {
+    font-size: calc(40mm); /* 30mm + liczba liter w nazwisku */
+}

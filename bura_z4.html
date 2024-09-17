@@ -1,0 +1,23 @@
++-----------------------------------------------------------------------------------+
+|    Sposób podłączania CSS do kodu strony WWW                                      |
++-----------------------------------------------------------------------------------+
+| 1. Bezpośrednio w elemencie HTML:                                                   |
+|    <div style="color: red; font-size: 16px;">Treść</div>                            |
+|                                                                                     |
+| 2. Wewnętrzny arkusz stylów (w sekcji <head>):                                      |
+|    <style>                                                                          |
+|      .example {                                                                     |
+|        color: blue;                                                                 |
+|        font-size: 14px;                                                             |
+|      }                                                                              |
+|    </style>                                                                         |
+|                                                                                     |
+| 3. Zewnętrzny plik CSS podłączony do HTML:                                          |
+|    <link rel="stylesheet" href="styles.css">                                        |
+|                                                                                     |
+| 4. CSS osadzony w atrybucie HTML:                                                   |
+|    <div class="example" style="color: green; font-size: 18px;">Treść</div>          |
+|                                                                                     |
+| 5. CSS zaimportowany do pliku CSS:                                                  |
+|    @import url("styles.css");                                                       |
++-----------------------------------------------------------------------------------+

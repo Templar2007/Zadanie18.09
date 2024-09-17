@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kod HTML</title>
+    <style>
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="pl"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Zadanie 9: Opis stylu zewnętrznego&lt;/title&gt;
+            &lt;style&gt;
+                h1 {
+                    font-size: 32px;
+                    font-family: Arial, sans-serif;
+                }
+                p {
+                    font-size: 16px;
+                    font-family: Arial, sans-serif;
+                }
+                .frame {
+                    border: 2px solid black;
+                    padding: 10px;
+                }
+            &lt;/style&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Zadanie 9: Opis stylu zewnętrznego&lt;/h1&gt;
+            &lt;ol&gt;
+                &lt;li&gt;
+                    &lt;h2&gt;Składnia teoretyczna&lt;/h2&gt;
+                    &lt;div class="frame"&gt;
+                        &lt;p&gt;&lt;link rel="stylesheet" type="text/css" href="nazwa_pliku.css"&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;h2&gt;Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz ile razy może on występować w dokumencie, jako podłączenie stylu CSS?&lt;/h2&gt;
+                    &lt;p&gt;Styl zewnętrzny jest podłączany w sekcji nagłówka dokumentu HTML za pomocą znacznika &lt;code&gt;&lt;link&gt;&lt;/code&gt;. Może on występować wielokrotnie w dokumencie, łącząc go z różnymi arkuszami styli.&lt;/p&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;h2&gt;Jaka jest najprostsza forma wstawiania stylu zewnętrznego?&lt;/h2&gt;
+                    &lt;div class="frame"&gt;
+                        &lt;p&gt;&lt;link rel="stylesheet" href="nazwa_pliku.css"&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;h2&gt;Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad musi być zachowana przy większej ilości dołączanych styli?&lt;/h2&gt;
+                    &lt;p&gt;Do jednego dokumentu HTML może być dołączonych wiele arkuszy styli. Musi być zachowana kolejność dołączania arkuszy styli - style z późniejszych arkuszy mogą nadpisywać style z wcześniejszych arkuszy.&lt;/p&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;h2&gt;Co się dzieje w przypadku konfliktów?&lt;/h2&gt;
+                    &lt;p&gt;W przypadku konfliktów, gdy te same style są definiowane w różnych arkuszach styli podłączonych do tego samego dokumentu, decyduje zasada kaskadowości CSS. Style z późniejszych arkuszy mogą nadpisywać style z wcześniejszych arkuszy.&lt;/p&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;h2&gt;Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?&lt;/h2&gt;
+                    &lt;p&gt;Pliki arkuszy styli mogą być tworzone i edytowane przy użyciu dowolnego edytora tekstowego, takiego jak Notepad++, Sublime Text, Visual Studio Code, itp.&lt;/p&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;h2&gt;Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?&lt;/h2&gt;
+                    &lt;p&gt;Pliki arkuszy styli mogą być tworzone i edytowane także za pomocą specjalistycznych edytorów CSS, takich jak Adobe Dreamweaver, Atom, czy Brackets.&lt;/p&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;h2&gt;Jakie rozszerzenie posiadają pliki będące zewnętrznym arkuszem styli?&lt;/h2&gt;
+                    &lt;p&gt;Pliki będące zewnętrznymi arkuszami styli mają zazwyczaj rozszerzenie <code>.css&lt;/code&gt;.&lt;/p&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;h2&gt;Jakie są zalety zewnętrznego arkusza styli?&lt;/h2&gt;
+                    &lt;p&gt;
+                        &lt;ol&gt;
+                            &lt;li&gt;Możliwość ponownego wykorzystania styli na wielu stronach internetowych.&lt;/li&gt;
+                            &lt;li&gt;Poprawa czytelności kodu HTML i CSS poprzez separację struktury HTML od prezentacji.&lt;/li&gt;
+                        &lt;/ol&gt;
+                    &lt;/p&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;h2&gt;Uwagi na temat pisania w CSS&lt;/h2&gt;
+                    &lt;p&gt;Pisząc w CSS należy dbać o czytelność i zgodność z zasadami kaskadowości oraz selektorów CSS. Staraj się unikać nadmiernego zagnieżdżania selektorów i definiowania zbyu dużych arkuszy styli.</p>
+</li>
+</ol>
+</body>
+</html>
+</pre>
+</body>
+</html>

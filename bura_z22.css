@@ -1,0 +1,19 @@
+/* Akapity */
+p {
+    color: red;
+    font-size: 22pt;
+}
+
+/* Akapity z identyfikatorem #gruby_kowalski */
+p#gruby_kowalski {
+    color: green;
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+/* Identyfikator uniwersalny #dlawszyskich_kowalski */
+#dlawszyskich_kowalski {
+    color: yellow;
+    font-size: 10pt;
+    font-family: Arial;
+}
